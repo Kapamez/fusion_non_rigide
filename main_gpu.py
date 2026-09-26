@@ -14,34 +14,36 @@ Tous les résultats intermédiaires sont conservés dans `results`
 """
 
 #  PARAMÈTRES images TIFF
+# Images TIFF en entrée, ajouter les chemins d'accès des 2 morceaux
 PATHS = [
-    r"C:\\Users\\Gustave\\Documents\\Education\\L3_EEEA\\Stage\\Pour_Arthur\\Prostate4\\A7_x1.25_z0.tif",
-    r"C:\\Users\\Gustave\\Documents\\Education\\L3_EEEA\\Stage\\Pour_Arthur\\Prostate4\\A8_x1.25_z0.tif",
+    r"", # Morceau n°1
+    r"", # Morceau n°2
 ]
 
 # Créer une image TIFF combinée en sortie ?
 MAKE_TIFF = False
 # Image combinée en sortie TIF
-TIFF_OUT_PATH = r"C:\Users\Gustave\Documents\Education\L3_EEEA\Stage\Pour_Arthur\Results\combined_tiff.tif"
+TIFF_OUT_PATH = r"" # à compléter
 
 # Dossier avec les cartes de déplacement
-DISP_FOLDER = r"C:\Users\Gustave\Documents\Education\L3_EEEA\Stage\python\cartes_dep"
+DISP_FOLDER = r"" # à compléter
 
-# Images d'entrée NIfTI
-NIFTI_PATH_GAUCHE = r"C:\Users\Gustave\Documents\Education\L3_EEEA\Stage\Pour_Arthur\Images\A7\tumor_map_P4_A7.nii\tumor_map_P4_A7.nii"
-NIFTI_PATH_DROITE = r"C:\Users\Gustave\Documents\Education\L3_EEEA\Stage\Pour_Arthur\Images\A8\tumor_map_P4_A8.nii\tumor_map_P4_A8.nii"
+# Images d'entrée NIfTI (mêmes images que les TIFF, mais en NIfTI)
+NIFTI_PATH_GAUCHE = r""  # à compléter
+NIFTI_PATH_DROITE = r""  # à compléter
 
-# Image de sortie NIfTI
-NIFTI_OUT_COMBINED = r"C:\Users\Gustave\Documents\Education\L3_EEEA\Stage\Pour_Arthur\Results\warped_P4_combined.nii"
+# Image de sortie NIfTI, enregistrée sur le PC
+NIFTI_OUT_COMBINED = r"" # à compléter
 
 # Overlay TIFF et NIfTI pour vérification
-OVERLAY_OUT_PATH = r"C:\Users\Gustave\Documents\Education\L3_EEEA\Stage\Pour_Arthur\Results\overlay_tiff_nii.tif"
+OVERLAY_OUT_PATH = r"" # à compléter
 
 # Nombre d'éléments a récupérer dans chaque image de base
-TOP_N_LIST = [2, 1] # Pour Prostate 4 A10 -> FLIP = 1
+# S'il y a des morceaux en plus du morceau principal sur l'image TIFF, combien ? Par défaut 1.
+TOP_N_LIST = [1, 1]
 
 # Inverser sur l'axe horizontal une image [Gauche, Droite] (0 = non, 1 = oui)
-FLIP = [0, 0] # Pour Prostate 4 A7 -> TOP_N_LIST = 2
+FLIP = [0, 0]
 
 # Facteur de réduction de la taille des images (1 = original, 2 = divisé par 2, 4 = par 4, etc.)
 DOWNSCALE_FACTOR = 16
