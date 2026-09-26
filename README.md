@@ -2,7 +2,7 @@
 
 Pipeline Python permettant de réaliser la **fusion non rigide de deux morceaux d'images histologiques de prostate** à l'aide d'une transformation **Thin Plate Spline (TPS)**.
 
-Le projet a été réalisé dans le cadre d'un stage de L3 EEEA au LTSI.
+Le projet a été réalisé dans le cadre d'un stage de L3 EEEA au LTSI. Les images histologiques utilisées étants celles de prostate, on sait que ça fonctionne sur ça. Théoriquement, ce pipeline peut fonctionner sur n'importe quel type d'images (histologiques).
 
 ## Fonctionnalités
 
