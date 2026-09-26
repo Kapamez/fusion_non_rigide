@@ -1,7 +1,7 @@
 # **Fusion non rigide d'images histologiques de prostate**
 
--# Stage de L3 EEEA au LTSI
+*Réalisé par Arthur J.R.*
 
-## *Réalisé par Arthur J.R.*
+*Stage de L3 EEEA au LTSI*
 
-## *Avec l'aide de GLM 5.2 :)*
+*Avec l'aide de GLM 5.2 :)*
